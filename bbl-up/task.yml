@@ -46,6 +46,8 @@ params:
   # - Key content or path to the file containing credentials downloaded from GCP
   # - Path is relative to the `bbl-state` input
   BBL_GCP_REGION:
+  # - Optional for GCP
+  BBL_GCP_ZONE:
 
   BBL_STATE_DIR: bbl-state
   # - Path to the directory containing the `bbl-state.json` file
